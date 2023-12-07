@@ -1,0 +1,26 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+.container {
+  margin-top: 100px;
+  display: flex;
+}
+
+.card {
+  flex: column;
+  width: 450px; /* Or whatever */
+  margin: auto; /* Magic! */
+  align-items: center;
+  text-align: center;
+
+  border-radius: 25px;
+  background-color: hsl(225, 100%, 98%);
+}
+img {
+  border-radius: 25px 25px 0px 0px;
+}
+
+button {
+  text-align: center;
+  display: block;
+}
