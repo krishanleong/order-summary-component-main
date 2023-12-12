@@ -20,7 +20,6 @@ body {
 .container {
   margin-top: 100px;
   display: flex;
-  
 }
 
 .header img {
@@ -105,9 +104,12 @@ body {
 
 .cancel-btn {
   color: hsl(224, 23%, 55%);
-  background-color: hsl(225, 100%, 98%)
+  background-color: hsl(225, 100%, 98%);
   font-weight: 700;
 }
 .cancel-btn:hover {
   color: hsl(245, 75%, 52%);
+}
+.link {
+  margin-left: auto;
 }
